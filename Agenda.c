@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define T_NDI 3
+#define T_NDI 30
 #define T_NAME 50
 #define T_MAIL 50
 #define T_PHONE 10
