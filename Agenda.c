@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define T_NDI 3
+#define T_NDI 30
 #define T_NAME 50
 #define T_MAIL 50
 #define T_PHONE 10
@@ -193,7 +193,7 @@ int main()
         printf("[3] Busca usuario \n");
         printf("[4] Muestra todos \n");
         printf("[5] Elimina usuario \n");
-        printf("[8] Salir del programa \n");
+        printf("[6] Salir del programa \n");
         printf("Ingresa opcion: ");
 
         scanf("%i", &opc);
@@ -289,7 +289,7 @@ int main()
 
             default: printf("Eleccion fuera de rango");
         } //Fin del switch
-    }while (opc != 8);
+    }while (opc != 6);
 
     return 0;
 
